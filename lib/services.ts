@@ -19,7 +19,7 @@ export const services = [
       "Offline-first data, push notifications and deep links",
       "Store submission and release management",
     ],
-    proof: "Pentair IoT app used in 150+ countries",
+    proof: "Global IoT app used in 150+ countries",
   },
   {
     title: "Mobile App Security Hardening",

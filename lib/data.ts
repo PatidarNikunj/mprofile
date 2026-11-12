@@ -59,7 +59,7 @@ export const experience: Role[] = [
     period: "Dec 2021 – Jan 2023",
     location: "Ahmedabad, India",
     points: [
-      "Owned the mobile and web experience for Pentair's large-scale IoT ecosystem, with customers in 150+ countries.",
+      "Owned the mobile and web experience for a global residential, commercial and industrial IoT ecosystem, with customers in 150+ countries.",
       "Connected 30+ BLE devices with React Native and native modules, for millions of end users.",
       "Created SDKs and shared component libraries, published to npm and documented in Storybook. Developer adoption rose by up to 70%.",
       "Applied clean architecture and SOLID principles with Jest testing. The SonarQube quality-gate pass rate rose by 30%+.",
@@ -131,7 +131,7 @@ export const skills: { group: string; items: string[] }[] = [
 
 export const achievements = [
   "Improved enterprise eCommerce platform stability by 60%+ for 1.5-2M users.",
-  "Owned the mobile and web experience for Pentair's global IoT ecosystem in 150+ countries.",
+  "Owned the mobile and web experience for a global IoT ecosystem used in 150+ countries.",
   "Built a live-streaming platform that handles 100K+ concurrent users.",
   "Led 6 engineers to design and secure an enterprise fraud-detection mobile platform.",
   "Led a cross-functional team to the finals of the Cybage Internal Hackathon with an AI-driven NFR tool (Next.js, FastAPI, single-agent LLM system).",
