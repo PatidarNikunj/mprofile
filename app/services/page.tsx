@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { profile, stats } from "@/lib/data";
-import { briefTemplate, engagements, process, services } from "@/lib/services";
+import { briefTemplate, engagements, hourlyRate, process, services } from "@/lib/services";
 import CopyBrief from "./CopyBrief";
 
 export const metadata: Metadata = {
@@ -44,6 +44,10 @@ export default function ServicesPage() {
               I&apos;m {profile.name}, a Senior / Lead Frontend & Full Stack Engineer with 12+ years in React,
               React Native, Next.js and TypeScript. You can hire me full-time, on contract, or for a
               fixed-scope project.
+            </p>
+            <p className="mt-4 inline-flex items-center gap-2 rounded-full border border-accent/50 bg-accent/10 px-4 py-1.5 text-sm">
+              <span className="font-semibold text-accent">{hourlyRate}/hour</span>
+              <span className="text-muted">for contract & freelance work</span>
             </p>
             <dl className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-line bg-line sm:grid-cols-4">
               {stats.map((s) => (
@@ -98,7 +102,7 @@ export default function ServicesPage() {
                       </li>
                     ))}
                   </ul>
-                  <p className="mt-5 font-mono text-xs text-muted">Rates: let&apos;s discuss</p>
+                  <p className="mt-5 border-t border-line pt-4 text-sm font-semibold text-ink">{e.rate}</p>
                 </div>
               ))}
             </div>

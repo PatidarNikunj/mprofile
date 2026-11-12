@@ -67,22 +67,27 @@ export const services = [
   },
 ];
 
+export const hourlyRate = "$35";
+
 export const engagements = [
   {
     name: "Full-time role",
     fit: "Senior or Lead Frontend, Full Stack or React Native roles",
     details: ["Open to relocating to the EU or UK", "Needs visa sponsorship", "Available immediately"],
+    rate: "Salary: let's discuss",
     highlight: true,
   },
   {
     name: "Contract / Freelance",
     fit: "Ongoing product work or extra team capacity",
     details: ["Remote, overlapping with EU/UK hours", "Billed hourly or monthly", "Weekly progress updates"],
+    rate: "$35 / hour",
   },
   {
     name: "Fixed-scope project",
     fit: "Audits, MVPs and clearly defined builds",
     details: ["Agreed scope and timeline up front", "Milestone-based payments", "Handover docs included"],
+    rate: "Fixed quote, based on $35 / hour",
   },
 ];
 
