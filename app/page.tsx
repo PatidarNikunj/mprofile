@@ -6,6 +6,7 @@ const nav = [
   { href: "#skills", label: "Skills" },
   { href: "#achievements", label: "Highlights" },
   { href: "#contact", label: "Contact" },
+  { href: "/services", label: "Services" },
 ];
 
 function SectionTitle({ index, children }: { index: string; children: React.ReactNode }) {
@@ -41,7 +42,7 @@ export default function Home() {
             ))}
           </nav>
           <a
-            href={`mailto:${profile.email}`}
+            href="/services"
             className="rounded-full border border-line px-4 py-1.5 text-sm transition-colors hover:border-accent hover:text-accent"
           >
             Hire me
@@ -222,12 +223,20 @@ export default function Home() {
               I&apos;m looking for Senior or Lead Frontend, Full Stack and React Native roles. I&apos;m
               open to relocating to the EU or UK.
             </p>
-            <a
-              href={`mailto:${profile.email}`}
-              className="mt-8 inline-block rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-bg transition-opacity hover:opacity-90"
-            >
-              Say hello
-            </a>
+            <div className="mt-8 flex flex-wrap justify-center gap-3">
+              <a
+                href={`mailto:${profile.email}`}
+                className="inline-block rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-bg transition-opacity hover:opacity-90"
+              >
+                Say hello
+              </a>
+              <a
+                href="/services"
+                className="inline-block rounded-lg border border-line px-6 py-3 text-sm transition-colors hover:border-accent"
+              >
+                See services
+              </a>
+            </div>
           </section>
         </div>
       </main>
